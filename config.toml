@@ -20,9 +20,10 @@ paginate     = 10
   enableSharingButtons = true
 
   # Metadata mostly used in document's head
-  description = "Zach Allgood AWS and Cybersecurity Blog"
+  description = "AWS and Cybersecurity Blog"
   keywords = "homepage, blog, aws, cybersecurity, news, certifications, education, tutorials, guides, dns, networking"
-  images = [""]
+  images:
+  - images/preview-image.png
 
   [[params.social]]
   name = "linkedin"
