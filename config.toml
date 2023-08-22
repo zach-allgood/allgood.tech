@@ -24,10 +24,19 @@ paginate     = 10
   keywords = "homepage, blog, aws, cybersecurity, news, certifications, education, tutorials, guides, dns, networking"
   images = [""]
 
+  [[params.social]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/zach-allgood/"
+
+  [[params.social]]
+  name = "github"
+  url = "https://github.com/zach-allgood"
+
+  [[params.social]]
+  name = "twitter"
+  url = "https://twitter.com/zallgoodtech"
+
 [taxonomies]
-    category = "blog"
-    tag      = "tags"
-    series   = "series"
 
 [languages]
   [languages.en]
