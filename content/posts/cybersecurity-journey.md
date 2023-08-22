@@ -2,6 +2,7 @@
 title: "From Web Developer to Cybersecurity Engineer"
 date: 2023-08-22
 draft: false
+description: "Transitioning from software to cybersecurity and how you can accomplish the same"
 ---
 
 ## Quick Look
