@@ -1,0 +1,72 @@
+baseURL = 'http://allgood.tech/'
+languageCode = 'en-us'
+title = 'Zach Allgood Blog'
+theme = 'hello-friend-ng'
+paginate     = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02"
+
+  # Subtitle for home
+  homeSubtitle = "AWS and Cybersecurity"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "Zach Allgood AWS and Cybersecurity Blog"
+  keywords = "homepage, blog, aws, cybersecurity, news, certifications, education, tutorials, guides, dns, networking"
+  images = [""]
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Zach Allgood"
+    subtitle = "AWS and Cybersecurity Blog"
+    keywords = "homepage, blog, aws, cybersecurity, news, certifications, education, tutorials, guides, dns, networking"
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "allgood.tech"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "resume"
+    name       = "Cloud Resume"
+    url        = "https://resume.allgood.tech/"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts/"
+
+[deployment]
+order = [".png$", ".jpg$", ".gif$", ".svg$"]
+
+[[deployment.targets]]
+URL = "s3://hugo-deploy-example?region=ca-central-1"
+
+[[deployment.matchers]]
+# Cache static assets for 20 years.
+pattern = "^.+\\.(js|css|png|jpg|gif|svg|ttf)$"
+cacheControl = "max-age=630720000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true
