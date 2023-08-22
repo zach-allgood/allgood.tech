@@ -22,8 +22,7 @@ paginate     = 10
   # Metadata mostly used in document's head
   description = "AWS and Cybersecurity Blog"
   keywords = "homepage, blog, aws, cybersecurity, news, certifications, education, tutorials, guides, dns, networking"
-  images:
-  - images/preview-image.png
+  images = ["images/preview-image.png"]
 
   [[params.social]]
   name = "linkedin"
