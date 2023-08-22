@@ -1,4 +1,4 @@
-baseURL = 'http://allgood.tech/'
+baseURL = 'https://allgood.tech/'
 languageCode = 'en-us'
 title = 'Zach Allgood Blog'
 theme = 'hello-friend-ng'
