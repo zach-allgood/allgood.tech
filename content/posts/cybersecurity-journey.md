@@ -8,7 +8,7 @@ description: "Transitioning from software to cybersecurity and how you can accom
 ## Quick Look
 
 - [Introduction](#introduction)
-- [Eductation](#education)
+- [Education](#education)
   - [Bachelor's Degree](#bachelors-degree)
   - [Certifications](#certifications)
 - [Hands-On Training](#hands-on-training)
