@@ -1,6 +1,6 @@
 baseURL = 'https://allgood.tech/'
 languageCode = 'en-us'
-title = 'Zach Allgood Blog'
+title = 'Allgood Tech Blog'
 theme = 'hello-friend-ng'
 paginate     = 10
 
@@ -11,7 +11,7 @@ paginate     = 10
   dateformNumTime = "2006-01-02"
 
   # Subtitle for home
-  homeSubtitle = "AWS and Cybersecurity"
+  homeSubtitle = "Cybersecurity - Cloud, Ethical Hacking, and Architecture"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -20,13 +20,9 @@ paginate     = 10
   enableSharingButtons = true
 
   # Metadata mostly used in document's head
-  description = "AWS and Cybersecurity Blog"
+  description = "Allgood Tech - All things security, hacking, and cloud"
   keywords = "homepage, blog, aws, cybersecurity, news, certifications, education, tutorials, guides, dns, networking"
   images = ["images/preview-image.png"]
-
-  [[params.social]]
-  name = "linkedin"
-  url = "https://www.linkedin.com/in/zach-allgood/"
 
   [[params.social]]
   name = "github"
@@ -40,8 +36,8 @@ paginate     = 10
 
 [languages]
   [languages.en]
-    title = "Zach Allgood"
-    subtitle = "AWS and Cybersecurity Blog"
+    title = "Allgood Tech"
+    subtitle = "Security"
     keywords = "homepage, blog, aws, cybersecurity, news, certifications, education, tutorials, guides, dns, networking"
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
@@ -55,10 +51,6 @@ paginate     = 10
     # alt = "Your example logo alt text"
 
   # And you can even create generic menu
-  [[menu.main]]
-    identifier = "resume"
-    name       = "Cloud Resume"
-    url        = "https://resume.allgood.tech/"
   [[menu.main]]
     identifier = "blog"
     name       = "Blog"
