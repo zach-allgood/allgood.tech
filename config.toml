@@ -29,6 +29,10 @@ paginate     = 10
   url = "https://github.com/zach-allgood"
 
   [[params.social]]
+  name = "credly"
+  url = "https://www.credly.com/users/zachary-allgood/badges"
+
+  [[params.social]]
   name = "twitter"
   url = "https://twitter.com/zallgoodtech"
 
