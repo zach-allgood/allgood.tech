@@ -11,7 +11,7 @@ paginate     = 10
   dateformNumTime = "2006-01-02"
 
   # Subtitle for home
-  homeSubtitle = "Cybersecurity - Cloud, Ethical Hacking, and Architecture"
+  homeSubtitle = "Software Engineering, Cloud, Ethical Hacking"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -20,8 +20,8 @@ paginate     = 10
   enableSharingButtons = true
 
   # Metadata mostly used in document's head
-  description = "Allgood Tech - All things security, hacking, and cloud"
-  keywords = "homepage, blog, aws, cybersecurity, news, certifications, education, tutorials, guides, dns, networking"
+  description = "Allgood Tech - All things security, hacking, and software"
+  keywords = "homepage, blog, aws, cybersecurity, news, certifications, education, tutorials, guides, dns, networking, software, engineer, software engineer"
   images = ["images/preview-image.png"]
 
   [[params.social]]
@@ -42,7 +42,7 @@ paginate     = 10
   [languages.en]
     title = "Allgood Tech"
     subtitle = "Security"
-    keywords = "homepage, blog, aws, cybersecurity, news, certifications, education, tutorials, guides, dns, networking"
+    keywords = "homepage, blog, aws, cybersecurity, news, certifications, education, tutorials, guides, dns, networking, software, engineer, software engineer"
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
